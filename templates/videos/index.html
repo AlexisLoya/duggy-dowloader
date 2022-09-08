@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block head_content %}
+    <title>Duggi</title>
+{% endblock %}
+{% block container %}
+    <h4 class="text-center m-5">Download your youtube videos</h4>
+    <form class="mt-2" method="post" >
+    {% csrf_token %}
+    <input class="form-control form-control-lg" type="url" placeholder="youtube link" aria-label=".form-control-lg example">
+
+    </form>
+
+{% endblock %}

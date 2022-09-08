@@ -1,5 +1,10 @@
-from django.db import models
+""" Videos Models """
+# Django
+
+# Models
+from Duggy.utils.models import DuggyModel
+
 
 # Create your models here.
-class Video(models.Model):
-    """"""
+class Video(DuggyModel):
+    """Model to save the data for each video downloaded"""
