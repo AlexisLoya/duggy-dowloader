@@ -9,5 +9,10 @@ urlpatterns = [
         route='',
         view=views.index,
         name='index'
+    ),
+    path(
+        route='download',
+        view=views.download,
+        name='download'
     )
 ]

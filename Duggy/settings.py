@@ -42,9 +42,10 @@ THIRD_APPS = [
     'bootstrap5',
 ]
 
-LOCAL_APPS = (
-)
-INSTALLED_APPS = tuple(THIRD_APPS) + tuple(DJANGO_APPS) + LOCAL_APPS
+LOCAL_APPS = [
+    'videos',
+]
+INSTALLED_APPS = tuple(THIRD_APPS) + tuple(DJANGO_APPS) + tuple(LOCAL_APPS)
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

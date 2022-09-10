@@ -1,5 +1,5 @@
 """ Duggy model utilities"""
-from django.forms import models
+from django.db import models
 
 
 # Django
